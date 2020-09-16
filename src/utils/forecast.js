@@ -15,7 +15,3 @@ const forecast = (latitude,longitude,callback) => {
 }
 
 module.exports = forecast
-
-// Weather: body.current.weather_descriptions,
-// Temperature: body.current.temperature+" Fahrenhiet",
-// FeelsLike: body.current.feelslike
