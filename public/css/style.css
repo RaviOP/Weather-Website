@@ -12,9 +12,19 @@ body {
 footer {
     color: #7c6f6f;
     border-top: 1px solid rgb(171, 235, 171);
+}
+.name{
     margin-top: 16px;
     padding: 0px 20px;
     text-align: right;
+    float: right;
+    width: 25%;
+}
+.data {
+    margin-top: 16px;
+    padding: 0px 20px;
+    text-align: left;
+    float: left;
 }
 h1 {
     font-size: 50px;
