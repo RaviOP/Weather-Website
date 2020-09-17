@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Weather</title>
         <link rel="icon" href="/img/weather.png">
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
         <div class="main-content">
-        {{>header}}
-        <p>Use this site to get your weather</p>
-        <form>
-            <input placeholder="Location">
-            <button>Search</button>
-        </form>
-        <p id="message-1"></p>
-        <p id="message-2"></p>
+            {{>header}}
+            <div class="para">
+                <p id="message-1"></p>
+                <p id="message-2"></p>
+                <p id="message-3"></p>
+                <p id="message-4"></p>
+            </div>
         </div>
         {{>footer}}
         <script src="/js/app.js"></script>
