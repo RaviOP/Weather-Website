@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(#ccff99,#f2f2f2);
-    color: #868686;
+    color: #1a0611;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 10px;
@@ -8,17 +8,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
     box-sizing: border-box;
-}
-footer {
-    color: #7c6f6f;
-    border-top: 1px solid rgb(171, 235, 171);
-}
-.name{
-    margin-top: 16px;
-    padding: 0px 20px;
-    text-align: right;
-    float: right;
-    width: 25%;
 }
 h1 {
     font-size: 50px;
@@ -56,6 +45,7 @@ button {
     color: green;
     border-radius: 5px;
     padding: 10px 20px;
+    margin: 5px 5px;
 }
 button:hover {
     background-color: green;
@@ -71,7 +61,7 @@ button:hover {
 }
 p{
     text-align: center;
-    color: rgb(121, 121, 121);
+    color: rgb(150, 150, 150);
     font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
